@@ -5,7 +5,7 @@ In the project directory, you can run:
 
 cd client - Please be sure you in the client dir.
 
-npm install - Its important to install node modules
+npm install -g - Its important to install node modules
 
 npm run start -- this will concurrently run the server and client-side
 
