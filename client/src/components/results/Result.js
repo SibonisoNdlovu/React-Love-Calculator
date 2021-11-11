@@ -11,7 +11,7 @@ export default class Result extends Component {
                 <div className="conatiner">
                     <div className="card text-center bg">
                         <div className="card-body">
-                            <img src={pic} alt="..." />
+                            <img src={pic} className="pic" alt="..." />
                             <h5 className="card-title">Love Percent : {this.props.results.results}%</h5>
                             <p className="card-text">{this.props.results.firstName} & {this.props.results.secondName}</p>
                             <Link to="/"><button className="btn btn-danger" >Re-Calculate</button></Link>
